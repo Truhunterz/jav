@@ -1,0 +1,106 @@
+body{
+    background-color: #202A25;
+}
+
+header{
+    background-color: #5F4BB6;
+    color: #26F0F1;
+    text-align: center;
+    padding: 28px;
+}
+
+
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:cadetblue;
+
+}
+
+nav li{
+    float: left;
+
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+
+
+main{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    background-image: url(mak\ gojo.jpg);
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+footer {
+    text-align: center;
+    background-color: #86A5D9;
+    color: #fff;
+    padding: 15px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #DABFFF;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea
+select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+button[type="submit"],
+button[type="reset"],
+input[type="button"] {
+    background-color: #8162E7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: grab;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover,
+input[type="button"]:hover {
+    background-color: #b3b3ff;
+    color: #000;
+}
