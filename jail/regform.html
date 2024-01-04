@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<p>Welcome to the Web Design Academy</p>
+	</header>
+	
+	<div class="container">
+			<div class="navigation">
+			<ul>
+				<li>
+					<a href="index.html">
+						<span class="text">HOME</span>
+					</a>
+				</li>
+				<li>
+					<a href="tabofevent.html">
+						<span class="text">TABLE OF EVENT</span>
+					</a>
+				</li>
+				<li>
+					<a href="regform.html">
+						<span class="text">REGISTRATION</span>
+					</a>
+				</li>
+				<li>
+					<a href="contactus.html">
+						<span class="text">CONTACT US</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="content">
+	<h2><em>Registration Form</em></h2>
+	<form action="">
+	<table>
+	<tr>
+		<th>Phone No.</th>
+		<td>:</td>
+		<td><input type="text" required> example: 019-1234567</td>
+	</tr>
+	
+	<tr>
+		<th>Address</th>
+		<td>:</td>
+		<td><textarea cols="50" rows="2" placeholder="Type your mailing address here." required></textarea></td>
+	</tr>
+	
+	<tr>
+		<th>Postcode</th>
+		<td>:</td>
+		<td><input type="number" required></td>
+	</tr>
+	
+	<tr>
+		<th>State</th>
+		<td>:</td>
+		<td>
+			<select id="State" name="State">
+			<option value="">Please Choose</option>
+			<option value="Pulau Pinang">Pulau Pinang</option>
+			<option value="Perlis">Perlis</option>
+			<option value="Kedah">Kedah</option>
+			<option value="Perak">Perak</option>
+			<option value="Terengganu">Terengganu</option>
+			<option value="Kelantan">Kelantan</option>
+			<option value="Pahang">Pahang</option>
+			<option value="Selangor">Selangor</option>
+			<option value="Melaka">Melaka</option>
+			<option value="Negeri Sembilan">Negeri Sembilan</option>
+			<option value="Johor">Johor</option>
+			<option value="Labuan">Labuan</option>
+			<option value="Sabah">Sabah</option>
+			<option value="Sarawak">Sarawak</option>
+			<option value="Kuala Lumpur">Kuala Lumpur</option>
+			<option value="Other">Others</option>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Contact Person</th>
+		<td>:</td>
+		<td><input type="text" required></td>
+	</tr>
+	
+	<tr>
+		<th>Relation</th>
+		<td>:</td>
+		<td>
+			<input type="radio" name="Relation">Father<br>
+			<input type="radio" name="Relation">Mother<br>
+			<input type="radio" name="Relation">Brother<br>
+			<input type="radio" name="Relation">Sister<br>
+			<input type="radio" name="Relation">Grand Father<br>
+			<input type="radio" name="Relation">Grand Mother<br>
+			<input type="radio" name="Relation">Others<br>
+		</td>
+	</tr>
+	
+	<tr>
+		<th>Contact Person Phone No.</th>
+		<td>:</td>
+		<td><input type="text" required> example: 019-1234567</td>
+	</tr>
+	
+	<tr>
+		<td colspan="3" align="center">
+			<button type="submit" onclick="resetForm()">Save</button>
+			<button type="reset" onclick="clearForm()">Clear</button>
+		</td>
+	</tr>
+	</table><br>
+	</form>
+</div>
+	
+	<footer>
+		<p>&copy 2023 Copyright by Name Nomatrik</p>
+	</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="functionjs.js"></script>
+</html>
